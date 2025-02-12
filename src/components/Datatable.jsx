@@ -3,11 +3,11 @@ import { Table } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const data = {
-    labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+    labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
     datasets: [
         {
             label: 'Sales',
-            data: [65, 59, 80, 81, 56, 55, 40],
+            data: [65, 59, 80, 81, 56, 55, 40, 85, 90, 30, 75, 50],
         },
     ],
 };
