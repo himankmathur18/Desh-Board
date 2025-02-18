@@ -7,7 +7,7 @@ import Datatable from './Datatable';
 import Footer from './Footer';
 
 const HomePage = () => {
-    const [isDarkMode ] = useState(true);
+    const [isDarkMode] = useState(true);
     const [showCards, setShowCards] = useState(false);
 
     const handleToggle = () => {
@@ -21,7 +21,7 @@ const HomePage = () => {
                 <div className="flex-1">
                     <Header />
 
-                    
+
                     <div className="p-3 text-left">
                         <button
                             className="bg-gray-500 text-white py-2 px-5 rounded hover: divide-black"
@@ -39,7 +39,7 @@ const HomePage = () => {
                         )}
                     </div>
                     <div className=" mx-lg p-4">
-                        <h1 className="font-bold mb-1">Charts</h1>
+                        <h1 className="font-bold mb-1   ">Charts</h1>
                         <Charts />
                     </div>
                     <div className=" mx-lg p-4">
